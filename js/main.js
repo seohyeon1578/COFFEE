@@ -33,7 +33,16 @@ window.addEventListener('scroll', function () {
     gsap.to(badgeEl, .6, {
       opacity: 1,
       display: 'block'
-    })
+    });
   }
-})
+});
 
+// 나타날 요소(.fade-in) 찾기
+const fadeEls = document.querySelectorAll('.visual .fade-in');
+// 요소들을 하나씩 반복 처리
+fadeEls.forEach(function (fadeEl, index) {
+  gsap.to(fadeEl, 1, {
+    delay: (index + 1) * .7,
+    opacity: 1
+  });
+});
