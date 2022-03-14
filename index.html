@@ -22,11 +22,17 @@
   <title>Coffee</title>
   <!-- <link rel="icon" href="./favicon.png"> ico 파일이 없거나 별도의 파일을 제공하는 경우 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <!-- font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- Google Material Icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="./css/main.css">
+  <!-- Swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- GSAP & ScrollToPlugin -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
     integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -392,6 +398,64 @@
         <img src="./images/visual_spoon.png" alt="Spoon" class="spoon">
       </div>
     </div>
+  </section>
+  <!-- NOTICE -->
+  <section class="notice">
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+    <div class="inner">
+      <div class="inner__left">
+        <h2>공지사항</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">크리스마스 & 연말연시 매장 영업시간 변경 안내</a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">[당첨자 발표] 커피 영수증 이벤트</a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">애플리케이션 버전 업데이트 안내</a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">[당첨자 발표] 전자영수증 이벤트</a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="notice-more">
+          <span class="material-icons">add_circle</span>
+        </a>
+      </div>
+      <div class="inner__right"></div>
+    </div>
+  </section>
+  <!-- PROMOTION -->
+  <section class="promotion">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/promotion_slide1.jpg" alt="온라인 샵 런칭 기념, 민트 초코 브라우니 무료! 기간: 2023년 3월 3일 ~ 2023년 3월 31일">
+          <a href="#" class="btn">자세히 보기</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/promotion_slide2.jpg" alt="뉴이어, 헤로피 커피와 함께 즐겁고 활기차게 시작하세요! 기간: 2023년 1월 1일 ~ 2월 14일">
+          <a href="#" class="btn">자세히 보기</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/promotion_slide3.jpg" alt="따뜻한 아메리카노를 주문하면, 달콤한 초코칩 쿠기 1+1 기간: 2025년 12월 16일 하루만">
+          <a href="#" class="btn">자세히 보기</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/promotion_slide4.jpg" alt="행사 기간동안 음료 주문시, 모든 디저트 80% 할인! 기간: 2023년 4월 1일 ~ 2024년 4월 1일">
+          <a href="#" class="btn">자세히 보기</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/promotion_slide5.jpg" alt="골드 회원 가입시, 따뜻한 코코아를 무료로 드립니다. 기간: 2024년 1월 24일 ~ 1월 30일">
+          <a href="#" class="btn">자세히 보기</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
   </section>
 </body>
 
