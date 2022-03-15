@@ -395,9 +395,6 @@ header .badges .badge {
   font-size: 30px;
 }
 
-.notice .inner__right {
-  width: 30%;
-}
 
 .notice .inner__left .swiper .swiper-slide {
   height: 62px;
@@ -409,6 +406,31 @@ header .badges .badge {
   color: #fff;
 }
 
+.notice .inner__right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.notice .inner__right h2 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.notice .inner__right .toggle-promotion {
+  width: 62px; 
+  height: 62px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notice .inner__right .toggle-promotion .material-icons {
+  font-size: 30px;
+}
+
 /* PROMOTION */
 .promotion {
   display: flex;
@@ -417,6 +439,11 @@ header .badges .badge {
   overflow: hidden;
   position: relative;
   height: 663px;
+  transition: height .4s;
+}
+
+.promotion.hide {
+  height:0;
 }
 
 .promotion .swiper {
@@ -464,3 +491,34 @@ header .badges .badge {
 .promotion .swiper-pagination .swiper-pagination-bullet-active {
   background-image: url("../images/promotion_slide_pager_on.png");
 }
+
+.promotion .swiper-button-prev, .promotion .swiper-button-next {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  top: 300px;
+  z-index: 1;
+  color: #333;
+}
+
+.promotion .swiper-button-prev {
+  left: 50%;
+  margin-left: -480px;
+}
+
+.promotion .swiper-button-next {
+  right: 50%;
+  margin-right: -480px;
+}
+
+.promotion .swiper-button-prev:hover, .promotion .swiper-button-next:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.promotion .swiper-button-prev::after, .promotion .swiper-button-next::after {
+  display: none;
+}
+
+.
