@@ -3,8 +3,7 @@
 js 연습<br>
 카페 랜딩 페이지(홈페이지)를 만드는 실습
 
-[DEMO]()
-[DEMO/Signin]()
+[DEMO](https://jolly-yalow-2ea395.netlify.app)
 
 ![Coffee korea](main_screenshot.jpg)
 
