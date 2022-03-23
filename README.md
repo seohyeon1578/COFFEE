@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1cbd6948-19c3-4cdf-b785-aa71d080b2c9/deploy-status)](https://app.netlify.com/sites/epic-darwin-271c77/deploys)
+
 # ☕ COFFEE
 
 js 연습<br>
