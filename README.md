@@ -1,4 +1,4 @@
-[![Netlify Status](https://app.netlify.com/sites/jolly-yalow-2ea395/deploys?filter=main)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1cbd6948-19c3-4cdf-b785-aa71d080b2c9/deploy-status)](https://app.netlify.com/sites/jolly-yalow-2ea395/deploys?filter=main)
 
 # ☕ COFFEE
 
